@@ -1,4 +1,4 @@
-/* Grunnleggende stil */
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #F8F9FA;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #007BFF; /* Primærfarge */
+  background-color: #007BFF; 
   padding: 40px 20px;
   text-align: center;
   color: white;
@@ -41,25 +41,25 @@ li {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-left: 5px solid #007BFF; /* Blå kant for hvert prosjekt */
+  border-left: 5px solid #007BFF; 
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 li:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  border-left: 5px solid #0056b3; /* Endre farge ved hover */
+  border-left: 5px solid #0056b3; 
 }
 
 a {
-  color: #007BFF; /* Primærfarge for lenker */
+  color: #007BFF; 
   text-decoration: none;
   font-weight: bold;
   transition: color 0.2s;
 }
 
 a:hover {
-  color: #0056b3; /* Mørkere blå ved hover */
+  color: #0056b3; 
   text-decoration: underline;
 }
 
